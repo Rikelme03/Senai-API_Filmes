@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>api_filmes_senai</name>
+    </assembly>
+    <members>
+        <member name="M:api_filmes_senai.Controllers.GeneroController.GetById(System.Guid)">
+            <summary>
+            Endopoint para buscar um genero pelo ID 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:api_filmes_senai.Domains.Filme.IdGenero">
+            <summary>
+            Referencia tabeloGenero
+            </summary>
+        </member>
+        <member name="T:api_filmes_senai.Interfaces.IGeneroRepository">
+            <summary>
+            Interface para genero : contrato 
+            Toda classe que herdar precisara implementar todos metodos definidos aqui dentro
+            </summary>
+        </member>
+        <member name="T:api_filmes_senai.Migrations.Db">
+            <inheritdoc />
+        </member>
+        <member name="M:api_filmes_senai.Migrations.Db.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:api_filmes_senai.Migrations.Db.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:api_filmes_senai.Migrations.Db.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:api_filmes_senai.Repository.GeneroRepository">
+            <summary>
+            Classe que vai implementar a IGeneroRepository
+            Ou seja vamos implementar os métodos
+            </summary>
+        </member>
+    </members>
+</doc>
